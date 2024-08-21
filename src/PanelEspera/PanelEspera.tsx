@@ -4,6 +4,7 @@ import style from "./PanelEspera.module.css";
 import { motion } from "framer-motion";
 import { useModal } from "../helpers/useModal";
 import { CurrentModal } from "../components/CurrentModal/CurrentModal";
+import video from "../assets/video/video-demo.mp4";
 
 interface Props {
 	module?: string;
@@ -49,7 +50,7 @@ export const PanelEspera = ({ module }: Props) => {
 				<DemoOptions onClick={handleChangeCurrentTicket} />
 				<div className={style.panelEspera__contenido}>
 					<video autoPlay loop muted playsInline className={style.video__content}>
-						<source src="/public/assets/video/video-demo.mp4" type="video/mp4" />
+						<source src={video} type="video/mp4" />
 					</video>
 				</div>
 				<div className={style.panelEspera__cta}>
