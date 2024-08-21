@@ -1,0 +1,24 @@
+.demoOptions__container {
+	display: flex;
+	gap: 10px;
+  margin: 20px;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+  z-index: 9999;
+}
+.demoOptions__button {
+	width: 40px;
+	height: 40px;
+
+	border-radius: 40px;
+	background-color: deeppink;
+	color: #fff;
+	font-size: 18px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  cursor: pointer;
+}
