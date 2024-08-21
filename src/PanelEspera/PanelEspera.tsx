@@ -40,7 +40,7 @@ export const PanelEspera = ({ module }: Props) => {
 		if (modal.modalStatus == true) {
 			setTimeout(() => {
 				modal.onHideModal();
-			}, 10000);
+			}, 7000);
 		}
 	}, [modal.modalStatus]);
 
